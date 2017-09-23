@@ -1,2 +1,2 @@
 # lnmhacks
-front end of lnmhacks 2016
+front end of lnmhacks 2017
