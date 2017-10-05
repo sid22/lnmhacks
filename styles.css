@@ -1,4 +1,4 @@
-/**
+s/**
  * Copyright 2015 Google Inc. All Rights Reserved.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -665,7 +665,7 @@ a img{
 }
 
 .sponsors-card .mdl-card {
-  width: 200px;
+  width: 300px;
   overflow: hidden;
 }
 
@@ -696,12 +696,12 @@ a img{
 .sponsors-card >.mdl-card__media{
   overflow: hidden;
   width: 240px;
-  background-color: #fff;
+  background-color: transparent;
 }
 .title-sponsor >.mdl-card__media{
   overflow: hidden;
   width: 400px;
-  background-color: #fff;
+  background-color: transparent;
 }
 
 /*=====  End of Sponsors  ======*/
@@ -809,6 +809,10 @@ a img{
   background-color: #fff;
 }
 
+
+.titlesponsor-card{
+  width:300px;
+}
 /*=====  End of Track Cards  ======*/
 
 
