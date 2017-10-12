@@ -184,6 +184,7 @@ a img{
   width: auto;
   background-color: #f3f3f3;
   background: url('images/bg.jpg') center 30% no-repeat;
+/*  opacity: 0.8;*/
   background-size: cover;
 }
 
