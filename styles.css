@@ -326,7 +326,7 @@ a img{
       /*background: url('images/wear.jpg');*/
       background: #fff;
       background-repeat: no-repeat;
-      min-height: 650px;
+      min-height: 300px;
     }
 
 
@@ -336,7 +336,7 @@ a img{
       /*background: url('images/wear.jpg');*/
       background: #fff;
       background-repeat: no-repeat;
-      min-height: 900px;
+      min-height: 725px;
     }
 }
 
