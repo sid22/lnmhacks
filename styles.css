@@ -1,4 +1,4 @@
-/**
+s/**
  * Copyright 2015 Google Inc. All Rights Reserved.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -183,7 +183,8 @@ a img{
   height: 600px;
   width: auto;
   background-color: #f3f3f3;
-  background: url('images/slide01.jpg') center 30% no-repeat;
+  background: url('images/bg.jpg') center 30% no-repeat;
+/*  opacity: 0.8;*/
   background-size: cover;
 }
 
@@ -320,13 +321,23 @@ a img{
     z-index: 1;
   }
 
-
 .lnmhacks-wear-section {
-  position: relative;
-  /*background: url('images/wear.jpg');*/
-  background: #fff;
-  background-repeat: no-repeat;
-  min-height: 450px;
+      position: relative;
+      /*background: url('images/wear.jpg');*/
+      background: #fff;
+      background-repeat: no-repeat;
+      min-height: 300px;
+    }
+
+
+@media (max-width: 450px) { 
+    .lnmhacks-wear-section {
+      position: relative;
+      /*background: url('images/wear.jpg');*/
+      background: #fff;
+      background-repeat: no-repeat;
+      min-height: 725px;
+    }
 }
 
 .lnmhacks-wear-band {
@@ -665,7 +676,7 @@ a img{
 }
 
 .sponsors-card .mdl-card {
-  width: 200px;
+  width: 300px;
   overflow: hidden;
 }
 
@@ -696,12 +707,12 @@ a img{
 .sponsors-card >.mdl-card__media{
   overflow: hidden;
   width: 240px;
-  background-color: #fff;
+  background-color: transparent;
 }
 .title-sponsor >.mdl-card__media{
   overflow: hidden;
   width: 400px;
-  background-color: #fff;
+  background-color: transparent;
 }
 
 /*=====  End of Sponsors  ======*/
@@ -809,6 +820,10 @@ a img{
   background-color: #fff;
 }
 
+
+.titlesponsor-card{
+  width:300px;
+}
 /*=====  End of Track Cards  ======*/
 
 
