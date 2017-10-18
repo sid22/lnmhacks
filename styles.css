@@ -635,87 +635,7 @@ a img{
 
 /*=====  End of Basic Overides  ======*/
 
-/*=============================================
-=            Basic Style Overrides            =
-=============================================*/
 
-.hack-description{
-
-  margin: 0;
-  padding: 3em 4em;
-  line-height: 1.5em;
-}
-
-.demo-card-square.mdl-card {
-  width: auto;
-  height: 320px;
-}
-.demo-card-square > .mdl-card__title-code {
-  color: #fff;
-  background:
-    url('images/code.jpg') center 15% no-repeat #fff;
-}
-
-.demo-card-square > .mdl-card__title-design {
-  color: #fff;
-  background:
-    url('images/design.jpg') center 15% no-repeat #fff;
-}
-.demo-card-square > .mdl-card__title-ideate {
-  color: #fff;
-  background:
-    url('images/ideate.jpg') center 15% no-repeat #fff;
-}
-
-/*================================
-=            Sponsors            =
-================================*/
-
-.lnmhacks-customized-section-text > .base-text{
-  line-height: 1.5;
-}
-
-.sponsors-card .mdl-card {
-  width: 300px;
-  overflow: hidden;
-}
-
-.mdl-card{
-  width: auto;
-}
-.title-sponsor{
-  width: 400px;
-}
-.sponsors-card > .mdl-card__title-code {
-  color: #fff;
-  background:
-    url('images/code.jpg') center no-repeat #fff;
-  background-position: center;
-}
-
-.sponsors-card > .mdl-card__title-design {
-  color: #fff;
-  background:
-    url('images/design.jpg') center no-repeat #fff;
-}
-.sponsors-card > .mdl-card__title-ideate {
-  color: #fff;
-  background:
-    url('images/ideate.jpg') center no-repeat #fff;
-}
-
-.sponsors-card >.mdl-card__media{
-  overflow: hidden;
-  width: 240px;
-  background-color: transparent;
-}
-.title-sponsor >.mdl-card__media{
-  overflow: hidden;
-  width: 400px;
-  background-color: transparent;
-}
-
-/*=====  End of Sponsors  ======*/
 
 .mdl-mega-footer--social-btn, .mdl-mega-footer__social-btn{
   background:none !important;
@@ -723,46 +643,6 @@ a img{
 }
 .mdl-mega-footer > i{
   color:#2ec3db !important;
-}
-.team-card-square.mdl-card {
-  width: auto;
-  height: 150px;
-}
-
-.demo-card-image.mdl-card-1 {
-  width: 256px;
-  height: 256px;
-  background: url('http://www.lnmhacks.com/images/vishwajeet.jpg') center / cover;
-}
-
-.demo-card-image.mdl-card-2 {
-  width: 256px;
-  height: 256px;
-  background: url('http://www.lnmhacks.com/images/kshitij.jpg') center / cover;
-}
-
-.demo-card-image.mdl-card-3 {
-  width: 256px;
-  height: 256px;
-  background: url('http://www.lnmhacks.com/images/nikita.jpg') center / cover;
-}
-
-.demo-card-image.mdl-card-4 {
-  width: 256px;
-  height: 256px;
-  background: url('http://www.lnmhacks.com/images/mahek.jpg') center / cover;
-}
-
-.demo-card-image.mdl-card-5 {
-  width: 256px;
-  height: 256px;
-  background: url('http://www.lnmhacks.com/images/gaurav.jpg') center / cover;
-}
-
-.demo-card-image.mdl-card-6 {
-  width: 256px;
-  height: 256px;
-  background: url('http://www.lnmhacks.com/images/siddharth.jpg') center / cover;
 }
 
 
